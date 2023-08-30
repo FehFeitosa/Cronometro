@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    height: 2.5em;
+    width: 5.5em;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+    max-width: 150px;
+    width: 100%;
+    height: 55px;
+}
+
+.start-btn{
+    background-color: green;
+    
+}
+.start-btn:hover{
+       background-color: rgb(93, 198, 64);
+       color: black;
+}
+
+.pause-btn{
+    background-color: gray;
+}
+.pause-btn:hover{
+    background-color: rgb(128, 118, 118);
+       color: black;
+}
+
+.restart-btn{
+    background-color: red;
+}
+.restart-btn:hover{
+    background-color: rgb(196, 35, 35);
+       color: black;
+}
